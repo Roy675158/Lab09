@@ -1,0 +1,140 @@
+#wrapper{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+@media only screen and (max-width: 780px) {
+  .columns {display: grid;}
+}
+table {width: 20%;
+  margin: auto;
+  text-align: center;
+  border: red 15px;
+  border-style: double;
+  background-color: lightcyan ;
+}
+tbody {font-family: sans-serif;
+font-size: .80em}
+tbody td {border-bottom: 2px lightcyan solid;}
+table tr {border-bottom: 1px solid red;}
+table tr:last-child {border-bottom: none;}
+
+form {
+  width: 30%;
+  text-align: center;
+  margin:auto;
+  border: red 15px;
+  border-style: double;
+  background-color: lightcyan;
+}  
+.blockquote {
+  background-color: transparent;
+  border-style: double;
+  border: red 30px;
+  margin: auto;
+}
+
+th {text-indent: 3%;
+  text-align: center;
+  flex-flow: row;;
+  text-decoration: underline;
+  font-size: 1em;
+  font-family: sans-serif;
+}  
+body {
+    text-align: center;
+    color: blue;
+    background-color: lightgreen;
+}
+p { 
+  font-family: sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+  border: red, 30px;
+  border-style: double;
+  padding: 15px;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+h2 { 
+  text-align: center;
+  text-transform:capitalize;
+  width: 80%;
+  border:30px red;
+  border-style: double;
+  padding: 15px;
+  margin-left: auto ;
+  margin-right: auto;
+ }
+
+footer{
+  text-align: center;
+ background-color: transparent;
+ width: 80%;
+ border:15px red; 
+ border-style: double;
+ padding: 15px; 
+ margin-left:auto;
+ margin-right: auto;
+
+}
+
+.columns {
+  display: flex;
+  width: 80%;
+  height: 60%;
+  top: 10%;
+  left: 10%;
+  flex-flow: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px red;
+  border-style: double;
+}
+.column {
+  flex: 1;
+  box-sizing: content-box; 
+  float: left;
+  width: 40%; /* two boxes (use 40% for one and 40% for two)*/
+  background-color: transparent;
+  border: 15px red;
+  border-style:dashed;
+  padding: 15px; 
+  margin:20px; 
+}
+.column {
+ float: right;
+ width: 40%;/* two boxes (use 40% for one and 40% for two)*/
+ background-color: transparent;
+ border: red;
+ border-style:dashed;
+ padding: 15px; 
+ margin-right: 20px;
+}
+a:link {
+  color: crimson;
+}
+a:visited {
+  color:black;
+}
+a:hover{
+  background-color: transparent;
+  color: crimson;
+  text-decoration: none;
+}
+img {
+ max-width: 50%; 
+ height: auto;
+ border-radius: 50%; 
+ box-shadow: 10px 10px blue;}
+
